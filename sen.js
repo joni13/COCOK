@@ -166,17 +166,9 @@ y = await getBuffer(ppimg)
 }
 }
 }
-teks = `Halo ${user} 👋\nSelamat datang di Grup
-*${mdata.subject}*
+teks = `Halo ${user} 👋\nSelamat datang brother, semoga betah di Grup kecil ini 
 
-Intro Member Baru
-
-${shp} Nama: 
-${shp} Umur:
-${shp} Status:
-${shp} Askot:
-
-Saya berjanji tidak akan cepu apapun info dari grup ini!!
+Jangan lupa cek deskripsi grup ya bro
 
 Sering nimbrung dan jangan malu2😁`
 
@@ -222,7 +214,7 @@ return senku.sendMessage(mdata.id, textleft3, MessageType.text, {contextInfo: {"
 }
 }
 
-teks = `*Sayonaraa @${num.split('@')[0]}👋*`
+teks = `*Makasih sudah pernah menjadi member vip @${num.split('@')[0]}🥲*`
 if(picdetec){
 try {
 ppimg = await senku.getProfilePicture(`${anu.participants[0].split('@')[0]}@c.us`)
